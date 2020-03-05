@@ -79,6 +79,8 @@ def gross_per_studio(collection)
     result[:studio] ? result[:studio] += result[:studio] : result[:studio] = 0
     index += 1
   end
+  
+  result
 end
 
 def movies_with_directors_set(source)
